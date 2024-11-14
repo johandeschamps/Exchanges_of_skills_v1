@@ -28,3 +28,13 @@ class Slot(models.Model):
 
     def __str__(self):
         return f"{self.date} - {self.description}"
+
+
+class Visitor(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+    def display_skills(self):
+        return Skill.objects.all()
+
+    def display_slots(self):
+        return Slot.objects.all()
