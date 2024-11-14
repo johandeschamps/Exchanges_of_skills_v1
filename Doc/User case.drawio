@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
+  <diagram name="Page-1" id="abaU5teWBHSIh3knwFKt">
+    <mxGraphModel dx="1282" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ytxkbaWUz_GBkNSJb9Mm-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;horizontal=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-250" width="660" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ytxkbaWUz_GBkNSJb9Mm-2" value="Echange de compétence" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="-215" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ytxkbaWUz_GBkNSJb9Mm-3" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="10" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ytxkbaWUz_GBkNSJb9Mm-4" value="Logged&lt;div&gt;&amp;nbsp;user&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="10" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ytxkbaWUz_GBkNSJb9Mm-7" value="Display skills" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tsSxHWKioVlDDUs3cD3j-3" value="Competence by list" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tsSxHWKioVlDDUs3cD3j-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="tsSxHWKioVlDDUs3cD3j-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="-20" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ld1TQwFkPDW0DGkK1mxV-3" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.055;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="05VhmLb0qaqE-Dodosl0-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ld1TQwFkPDW0DGkK1mxV-9" value="&lt;font color=&quot;#333333&quot;&gt;View the next uptime slots where a anonymous user has offered to help.&amp;nbsp;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-180" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld1TQwFkPDW0DGkK1mxV-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.928;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Ld1TQwFkPDW0DGkK1mxV-9" target="ytxkbaWUz_GBkNSJb9Mm-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="-100" as="sourcePoint" />
+            <mxPoint x="472.5" y="-107" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ld1TQwFkPDW0DGkK1mxV-12" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" target="ytxkbaWUz_GBkNSJb9Mm-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="70" as="sourcePoint" />
+            <mxPoint x="508" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=25.517241379310345;endSize=6.379310344827586;width=20;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="24.66" y="170" as="sourcePoint" />
+            <mxPoint x="24.66" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="24.66" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-6" value="Management of his skills" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="260" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-14" value="&lt;font color=&quot;#000000&quot;&gt;Search help with your needs&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="250" y="130" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-15" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="05VhmLb0qaqE-Dodosl0-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-16" value="&lt;font color=&quot;#000000&quot;&gt;Display help slots offered by other users&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="255" y="230" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-17" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="05VhmLb0qaqE-Dodosl0-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <mxPoint x="353" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-18" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;- Add a skill among the list&amp;nbsp;to offer&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="05VhmLb0qaqE-Dodosl0-18" target="05VhmLb0qaqE-Dodosl0-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="47" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-22" value="&lt;font color=&quot;#333333&quot;&gt;- Ability to indicate that it is available for that specific skill, which removes it from proposals for other users.&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;See slots offered by other users willing to help with a skill they don&#39;t have and need.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="510" y="190" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="05VhmLb0qaqE-Dodosl0-22" target="05VhmLb0qaqE-Dodosl0-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="105" as="sourcePoint" />
+            <mxPoint x="460" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-24" value="- Add help search slots&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="510" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="05VhmLb0qaqE-Dodosl0-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="05VhmLb0qaqE-Dodosl0-24" target="05VhmLb0qaqE-Dodosl0-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="20" as="sourcePoint" />
+            <mxPoint x="379" y="88" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
