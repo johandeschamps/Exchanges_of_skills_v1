@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Slots</title>
 </head>
 <body>
-$END$
+    <h1>Slots list</h1>
+    <ul>
+        {% for slot in slots %}
+            <li>{{ slot.date }} - {{ slot.description }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

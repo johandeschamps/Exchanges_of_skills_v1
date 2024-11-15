@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    background-color: black;
 }
 
 header {
@@ -40,6 +39,10 @@ header {
     font-weight: bold;
 }
 
+:root {
+        --background-image: url("{% static 'images/background.jpeg' %}");
+    }
+
 .section {
     height: 100vh;
     display: flex;
@@ -47,7 +50,7 @@ header {
     align-items: center;
     color: white;
     text-align: center;
-    background: url('images/151116-F-IO684-9001.jpeg') no-repeat center center/cover;
+    background: var(--background-image);
 }
 
 .hero .content {

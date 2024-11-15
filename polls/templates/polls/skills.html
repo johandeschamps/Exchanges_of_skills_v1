@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Skills</title>
+    {% load static %}
+
 </head>
 <body>
-$END$
+    <h1>Skills list</h1>
+    <ul>
+        {% for skill in skills %}
+            <li>{{ skill.name }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
