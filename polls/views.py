@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from .models import Skill, Slot, Visitor
 
-
 def index(request):
-    return render(request, 'polls/index.html')
+    skills = Skill.objects.all()
+    return render(request, 'polls/index.html', {'skills': skills})
 
 def display_skills(request):
     skills = Skill.objects.all()
