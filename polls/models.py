@@ -27,6 +27,15 @@ class Slot(models.Model):
     user_requesting_help = models.ForeignKey(User, on_delete=models.CASCADE, related_name='requested_help_slots', null=True, blank=True)
     user_offering_help = models.ForeignKey(User, on_delete=models.CASCADE, related_name='offered_help_slots', null=True, blank=True)
 
+    def clean(self):
+        if self.user_requesting_help is None and self.user_offering_help is None:
+            raise ValidationError(
+                'Un créneau doit avoir soit un utilisateur demandant de l\'aide, soit un utilisateur offrant de l\'aide.')
+
+    def save(self, *args, **kwargs):
+        self.clean()
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return f"{self.date} - {self.description}"
 
@@ -39,12 +48,3 @@ class Visitor(models.Model):
 
     def display_slots(self):
         return Slot.objects.all()
-
-    def clean(self):
-        if self.user_requesting_help is None and self.user_offering_help is None:
-            raise ValidationError(
-                'Un créneau doit avoir soit un utilisateur demandant de l\'aide, soit un utilisateur offrant de l\'aide.')
-
-    def save(self, *args, **kwargs):
-        self.clean()
-        super().save(*args, **kwargs)
