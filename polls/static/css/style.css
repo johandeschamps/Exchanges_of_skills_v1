@@ -39,18 +39,12 @@ header {
     font-weight: bold;
 }
 
-:root {
-        --background-image: url("{% static 'images/background.jpeg' %}");
-    }
-
-.section {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    background: var(--background-image);
 }
 
 .hero .content {
