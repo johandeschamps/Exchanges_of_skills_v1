@@ -42,11 +42,11 @@
     <section id="skills-list" class="section main">
         <div class="content">
             <h2>Skills List</h2>
-            <ul>
+            <div class="skills-grid">
                 {% for skill in skills %}
-                    <li>{{ skill.name }}</li>
+                    <div class="skill-item">{{ skill.name }}</div>
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </section>
 
