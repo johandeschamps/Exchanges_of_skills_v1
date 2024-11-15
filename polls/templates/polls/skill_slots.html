@@ -23,30 +23,23 @@
         <div class="navbar">
             <div class="logo">Skills Exchange</div>
             <div class="menu">
-                <a href="#skills-list">Skills list</a>
-                <a href="#home">Home</a>
+                <a href="http://127.0.0.1:8000/polls/#skills-list">Skills list</a>
+                <a href="http://127.0.0.1:8000/polls/#home">Home</a>
                 <a href="#login">Login</a>
             </div>
         </div>
     </header>
 
-    <!-- Home page section -->
-    <section id="home" class="section main">
-        <div class="content">
-            <h1>Share your skills</h1>
-            <button class="join-button">Join today</button>
-        </div>
-    </section>
-
     <!-- Skills list section -->
     <section id="skills-list" class="section main">
         <div class="content">
-            <h2>Skills List</h2>
-            <div class="skills-grid">
-                {% for skill in skills %}
-                    <div class="skill-item"><a href="{% url 'skill_slots' skill.id %}">{{ skill.name }}</a></div>
+            <h1>{{ skill.name }}</h1>
+            <h2>Available Slots</h2>
+            <ul>
+                {% for slot in slots %}
+                    <li>{{ slot.date }} - {{ slot.time }}: {{ slot.description }}</li>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
     </section>
 
