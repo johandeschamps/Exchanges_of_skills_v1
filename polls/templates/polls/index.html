@@ -42,17 +42,13 @@
     <section id="skills-list" class="section main">
         <div class="content">
             <h2>Skills List</h2>
-            <div class="skills-grid">
-                <div class="skill-item">Cooking classes</div>
-                <div class="skill-item">Gardening help</div>
-                <div class="skill-item">Computer courses</div>
-                <div class="skill-item">Sports coaching</div>
-                <div class="skill-item">DIY help</div>
-                <div class="skill-item">Airplane flying course</div>
-                <div class="skill-item">Sailing lessons</div>
-                <div class="skill-item">Meditation classes</div>
-            </div>
+            <ul>
+                {% for skill in skills %}
+                    <li>{{ skill.name }}</li>
+                {% endfor %}
+            </ul>
         </div>
     </section>
+
 </body>
 </html>
