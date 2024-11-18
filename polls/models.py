@@ -37,9 +37,7 @@ class Skill(models.Model):
     name = models.CharField(max_length=100)
 
     def __str__(self):
-        """
-        Retourne une représentation en chaîne de caractères de la compétence.
-        """
+        """Retourne une représentation en chaîne de caractères de la compétence."""
         return self.name
 
 
@@ -81,31 +79,3 @@ class Slot(models.Model):
         Retourne une représentation en chaîne de caractères du créneau.
         """
         return f"{self.date} - {self.description}"
-
-
-class Visitor(models.Model):
-    """
-    Modèle représentant un visiteur.
-
-    Attributs:
-        user (OneToOneField): Utilisateur associé au visiteur.
-    """
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-
-    def display_skills(self):
-        """
-        Affiche toutes les compétences disponibles.
-
-        Retourne:
-            QuerySet: Ensemble des compétences.
-        """
-        return Skill.objects.all()
-
-    def display_slots(self):
-        """
-        Affiche tous les créneaux disponibles.
-
-        Retourne:
-            QuerySet: Ensemble des créneaux.
-        """
-        return Slot.objects.all()
