@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <style>
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            background: url("{% static 'images/background.jpeg' %}")no-repeat center center/cover;
+        }
+        .menu a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Skills Exchange</div>
+            <div class="menu">
+                <a href="http://127.0.0.1:8000/polls/#skills-list">Skills list</a>
+                <a href="http://127.0.0.1:8000/polls/#home">Home</a>
+                <a href="#login">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills list section -->
+    <section id="skills-list" class="section main">
+        <div class="content">
+            <h1>{{ skill.name }}</h1>
+            <h2>Available Slots</h2>
+            <div class="skills-grid">
+                {% for slot in slots %}
+                    <div class="skill-item">{{ slot.date }} - {{ slot.time }}: {{ slot.description }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
