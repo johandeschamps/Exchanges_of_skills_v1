@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2024-11-18T10:45:56.290Z" version="22.1.22" etag="aEsSrAzV-eW4xONvEOJf" type="embed">
   <diagram name="Page-1" id="abaU5teWBHSIh3knwFKt">
-    <mxGraphModel dx="1282" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
         <mxCell id="05VhmLb0qaqE-Dodosl0-6" value="Management of his skills" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="260" y="30" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="05VhmLb0qaqE-Dodosl0-14" value="&lt;font color=&quot;#000000&quot;&gt;Search help with your needs&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="05VhmLb0qaqE-Dodosl0-14" value="&lt;font color=&quot;#000000&quot;&gt;Manage slots of&lt;br&gt;search help&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="250" y="130" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="05VhmLb0qaqE-Dodosl0-15" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="05VhmLb0qaqE-Dodosl0-14" edge="1">
