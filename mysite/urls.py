@@ -19,7 +19,6 @@ from polls import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('skills/<int:skill_id>/', views.skill_slots, name='skill_slots'),
     path("polls/", include("polls.urls")),
     path('admin/', admin.site.urls),
 ]
